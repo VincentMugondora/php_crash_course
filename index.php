@@ -1,12 +1,24 @@
 <?php
 
-define('NAME', 'Vincent');
+// define('NAME', 'Vincent');
 
-// $name = 'Vincent Mugondora';
-$age = 30;
+// // $name = 'Vincent Mugondora';
+// $age = 30;
 
 
-// $name = "Mugo";
+// // $name = "Mugo";
+
+// // strings
+// $string_one = 'my email is ';
+// $string_two = 'vincent@uncommon.org';
+
+// // string concatination
+// echo $string_one.$string_two;
+
+// $name = 'Vincent';
+// echo 'Hey my name is '.$name
+
+
 
 ?>
 
