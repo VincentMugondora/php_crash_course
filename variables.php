@@ -17,10 +17,20 @@ $pi = 3.14;
 // echo $radius++; // incrementing
 // echo $radius--; // decrementing
 
+// SHORT HAND OPERATORS
 $age = 20;
-$age += 5; // incrementing by 5
-$age -= 5; // decrementing by 5
+// $age += 5; // incrementing by 5
+// $age -= 5; // decrementing by 5
+// $age *= 5; // multiplying by 5
 
+// echo $age; 
+
+// NUMBER FUNCTIONS
+// echo floor($pi); // round down
+// echo ceil($pi); // round up
+// echo round($pi); // round to nearest integer
+// echo abs($pi); // absolute value
+// echo sqrt($pi); // square root
 
 ?>
 
