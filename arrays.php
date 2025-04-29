@@ -47,8 +47,24 @@
 // multi-dimensional array
 
 $blogs = [
-    
-]
+    ['title' => 'vin party', 'author' => 'vin', 'content' => 'lorem', 'likes' => 30],
+    ['title' => 'vin two', 'author' => 'rashy', 'content' => 'lorem', 'likes' => 40],
+    ['title' => 'vin three', 'author' => 'mugo', 'content' => 'lorem', 'likes' => 50],
+    ['title' => 'vin four', 'author' => 'mugondora', 'content' => 'lorem', 'likes' => 60],
+    ['title' => 'vin five', 'author' => 'mugondora', 'content' => 'lorem', 'likes' => 70],
+    ['title' => 'vin six', 'author' => 'mugondora', 'content' => 'lorem', 'likes' => 80],
+    ['title' => 'vin seven', 'author' => 'mugondora', 'content' => 'lorem', 'likes' => 90],
+    ['title' => 'vin eight', 'author' => 'mugondora', 'content' => 'lorem', 'likes' => 100],
+    ['title' => 'vin nine', 'author' => 'mugondora', 'content' => 'lorem', 'likes' => 110],
+    ['title' => 'vin ten', 	'author'=>	'mugondora','content'=>'lorem','likes'=>120],
+];
+
+// print_r($blogs); // accessing array elements
+// echo $blogs[1][0]; // accessing array elements
+// echo "<br>";
+// print_r($blogs[0]); // accessing array elements
+// echo $blogs[0]['title']; // accessing array elements
+echo count($blogs); // counting array elements
 
 ?>
 
