@@ -46,7 +46,9 @@
 
 // multi-dimensional array
 
-$blogs = []
+$blogs = [
+    
+]
 
 ?>
 
