@@ -64,7 +64,11 @@ $blogs = [
 // echo "<br>";
 // print_r($blogs[0]); // accessing array elements
 // echo $blogs[0]['title']; // accessing array elements
-echo count($blogs); // counting array elements
+// echo count($blogs); // counting array elements
+
+$popped = array_pop($blogs); // removing last element from array
+
+print_r($popped); // accessing array elements
 
 ?>
 
