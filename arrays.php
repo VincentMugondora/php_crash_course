@@ -27,10 +27,15 @@ echo "<br>";
 // print_r ($ages); // accessing array elements
 
 array_push($ages, 10); // adding new element to array
-print_r ($ages); // accessing array elements
+// print_r ($ages); // accessing array elements
+
+// $peopleThree = array_merge($peopleOne, $peopleTwo); // merging arrays
+// print_r ($peopleThree); // accessing array elements
 
 // Associative arrays
 $peopleTwo = ['name' => 'Vincent', 'age' => 23, 'email' => 'vincent@example.com'];
+echo "<br>";
+echo $peopleTwo['name']; // accessing array elements
 
 ?>
 
