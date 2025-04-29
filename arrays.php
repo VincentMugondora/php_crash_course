@@ -46,6 +46,7 @@
 
 // multi-dimensional array
 
+$blogs = []
 
 ?>
 
