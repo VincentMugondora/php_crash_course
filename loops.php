@@ -85,6 +85,17 @@ $products = [
     <title>LOOPS</title>
 </head>
 <body>
-    <h1>LOOPS</h1>
+    <h1>Products</h1>
+    <ul>
+        <?php foreach ($products as $product){ ?>
+
+            <h3><?php echo $product['name']; ?></h3>
+            <p>Price: $<?php echo number_format($product['price'], 2); ?></p>
+            <p>Description: <?php echo $product['description']; ?></p>  
+            <p>Status: <?php echo $product['in_stock'] ? 'In Stock' : 'Out of Stock'; ?></p>
+            <hr>
+
+        <?php } ?>
+    </ul>
 </body>
 </html>
