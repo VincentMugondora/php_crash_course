@@ -19,7 +19,7 @@ $products = array(
     array("name" => "Pipe Sealant Tape", "price" => 7.99)
 );
 
-foreach($products as $product)
+// foreach($products as $product)
     // if ($product["price"] < 30) {
     //     echo "You have insufficient funds to buy this product: " . $product["name"] . "<br>";
     // } elseif ($product["price"] > 30 && $product["price"] < 50) {
@@ -27,6 +27,17 @@ foreach($products as $product)
     // } else {
     //     echo "You have sufficient funds to buy this product: " . $product["name"] . "<br>";
     // }
+
+    foreach ($products as $product) {
+        if ($product['name'] === 'Plunger'){
+            // break;
+            continue; // skip this iteration and continue with the next one
+        }
+        echo "Product: " . $product['name'] . "<br>";
+        echo "Price: $" . $product['price'] . "<br>";
+        echo "<hr>";
+    }
+
 ?>
 
 <!DOCTYPE html>
