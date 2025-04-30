@@ -61,7 +61,15 @@ function sayHello($name = "World") {
 }
 
 // sayHello("John Doe"); // Outputs: Hello, John Doe!
-sayHello(); // Outputs: Hello, World!
+// sayHello(); // Outputs: Hello, World!
+
+function formatProduct($product) {
+    echo "Product: " . $product['name'] . "<br>";
+    echo "Price: $" . $product['price'] . "<br>";
+    echo '<hr>';
+}
+
+formatProduct(array("name" => "Wrench", "price" => 25.99));
 
 ?>
 
